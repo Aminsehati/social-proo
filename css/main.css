@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px ;
+}
+.pt-20{
+    padding: 20px 0;
+}
+.pt-30{
+    padding: 30px 0;
+}
+.pt-40{
+    padding: 40px 0;
+}
+.px-10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.px-15{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.px-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about{
+    padding-top: 30px;
+}
+.content{
+    position: relative;
+}
+.about-title{
+    flex: 0 0 68%;
+    max-width: 68%;
+}
+.about-title .about{
+    width: 50%;
+}
+.about-title h2{
+    font-size: 30px;
+    color: #531f50;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.about-title p{
+    font-size: 14px;
+    font-family: 500;
+    line-height: 25px;
+    color: #531f50;
+}
+.price-section{
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+.price-section .price{
+    background: #f7f2f8;
+    float: right;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.price-section .price:nth-child(2){
+    margin-right: -20px;
+}
+.price-section .price:nth-child(3){
+    margin-right: -30px;
+}
+.price-section .price .price-icon i{
+    color: #ed9950;
+}
+.price-section .price p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #531f50;
+    margin-left: 8px;
+}
+.content-box{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.content-box-inner{
+    background: #531f50;
+    padding: 20px ;
+    border-radius: 4px;
+}
+.content-box-inner .content-para{
+    padding: 20px 0;
+}
+.content-box-inner .content-para p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+}
+.content-box-inner .content-profile{
+    display: flex;
+    align-items: center;
+}
+.content-box-inner .content-profile .pro-img{
+    padding-right: 20px;
+}
+.content-box-inner .content-profile .pro-title{
+    color: #fff;
+}
+.content-box-inner .content-profile .pro-title h4 span{
+    display: block;
+}
+.content-box-inner .content-profile .pro-title h4 span:last-child{
+    color: #b3649d;
+}
+.content-box-inner .content-profile .pro-title h4 span:not(:last-child){
+    margin-bottom: 5px;
+}
+.content-box-inner .content-profile .pro-img img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1300px !important;
+        margin: auto;
+    }
+}
+@media screen and (min-width:920px){
+    .container{
+        max-width: 100%;
+    }
+    .row{
+        margin: 0  15px !important;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        max-width: 100%;
+    }
+    .row{
+        margin: 0  15px !important;
+    }
+}
+@media screen and (min-width:576px){
+    .container{
+        max-width: 100%;
+    }
+    .row{
+        margin: 0  15px !important;
+    }
+}
+@media screen and (min-width:320px){
+    .container{
+        max-width: 100%;
+    }
+    .row{
+        margin: 0  10px !important;
+    }
+}
+@media screen and (max-width:1056px){
+    .about .about-title{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .about .about-title .about{
+        width: 80%;
+    }
+    .price-section{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+@media screen and (max-width:860px){
+    .price-section .price{
+        display: flex;
+        flex-direction: column;
+    }
+    .price-section .price .price-icon{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:758px){
+    .about .about-title{
+        flex: 0  0 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .about .about-title .about{
+    width: 100%;
+    }
+    .price-section{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price-section .price:nth-child(2){
+        margin-right: 0;
+    }
+    .price-section .price:nth-child(3){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:902px){
+    .content-box{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:532px){
+    .content-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
